@@ -8,34 +8,67 @@
     width: 100%;
     height: 100vh;
 }
+.container{
+    max-width: 1218px;
+    margin: 0 auto;
+}
 
 .header{
     top: 0;
     left: 0;
     right: 0;
+    padding: 32px;
 }
 .header_inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.menu{
+    display: flex;
+    gap: 137px;
+
+}
 
 .logo{
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 200px;
+    width: 158px;
+    height: 36px;
 
 }
 .nav{
     font-size: 16px;
-
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.input{
+    position: relative;
+    display: inline-block;
+}
+.search_icon{
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url('../Img/search-outline.svg');
+    background-size: 16px 16px;
+    pointer-events: none;
+}
+.input input{
+    width: 166px;
+    height: 36px;
+    padding-right: 30px;
 }
 .nav_link{
     display: inline-block;
     text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
 }
 .nav_link:hover{
-    color: #000000;
+    color: rgba(27, 19, 104, 0.98);
 }
 .Img_Girl{
     width: 1216px;
@@ -43,4 +76,69 @@
     margin: auto;
     display: block;
     align-items: center;
+    position: relative;
+}
+.search{
+    background: #F4F4F5;
+    border: none;
+    border-radius: 5px;
+
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    position: absolute;
+    left: 400px;
+    top: 480px;
+    box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.12);
+}
+.card_icon{
+    width: 97px;
+    height: 28px;
+    position: absolute;
+    background-color: #4B6BFB;
+    border-radius: 6px;
+    left: 40px;
+    top: 40px;
+
+}
+.Btn{
+    width: 750px;
+    height: 100px;
+    background-color: #E8E8EA;
+    border-radius: 12px;
+}
+.AdsButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 1216px;
+    height: 1504px;
+
+
+}
+.News_Feed{
+    margin-top: 80px;
+}
+.Post{
+    width: 392px;
+    height: 488px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border: #E8E8EA solid 1px;
+    gap: 20px;
+
+}
+.post_icon{
+    width: 360px;
+    height: 240px;
+    border-radius: 6px;
+    padding: 16px 16px 262px 16px;
 }
