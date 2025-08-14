@@ -102,6 +102,17 @@
     border-radius: 6px;
     left: 40px;
     top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card_text{
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
 
 }
 .Btn{
@@ -114,6 +125,13 @@
     display: flex;
     justify-content: center;
     margin-top: 150px;
+}
+.News_Title{
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #181A2A;
+
 }
 .posts{
     display: grid;
@@ -128,6 +146,7 @@
     margin-top: 80px;
 }
 .Post{
+    display: flex;
     width: 392px;
     height: 488px;
     border-radius: 12px;
@@ -136,9 +155,29 @@
     gap: 20px;
 
 }
+
 .post_icon{
     width: 360px;
     height: 240px;
     border-radius: 6px;
     padding: 16px 16px 262px 16px;
+}
+.title{
+    display: flex;
+    width: 360px;
+    height: 200px;
+
+}
+.post_text{
+    width: 344px;
+    height: 128px;
+    padding: 8px 8px 64px 8px;
+}
+.icon{
+    display: flex;
+    width: 97px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: rgba(75, 107, 251, 0.05);
+
 }
