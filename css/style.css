@@ -225,3 +225,41 @@
     width: 353px;
     height: 54px;
 }
+.footer_inner{
+    display: flex;
+    width: 1216px;
+}
+.about{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    width: 289px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+
+}
+.about_inner {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #696A75;
+    margin-top: 12px;
+}
+    .contact{
+        display: flex;
+        width: 208px;
+        height: 52px;
+        flex-direction: column;
+    }
+.mail{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+
+}
+.bold{
+    font-weight: 600;
+}
+.thin{
+    font-weight: 400;
+}
